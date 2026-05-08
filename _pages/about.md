@@ -2,8 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Associate Professor at the University of Rhode Island</a>   .
-
+subtitle: <a href='www.math.uri.edu/~jchavezc'>Associate Professor at the University of Rhode Island</a>. | 5 Lippit Rd, Kingston, RI. | 02881. | Office 200F. 
 profile:
   align: right
   image: prof_pic.jpg
