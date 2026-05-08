@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Associate Professor at the University of Rhode Island</a>. Office 200F at 5 Lippitt Rd, Kingston, RI. 02881.   .
+subtitle: <a href='#'>Associate Professor at the University of Rhode Island</a>   .
 
 profile:
   align: right
