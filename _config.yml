@@ -6,7 +6,7 @@ title: Jonathan Chávez website # the website title (if blank, full name will be
 first_name: Jonathan
 middle_name: A.
 last_name: Chávez Casillas
-contact_note: The best way to reach out to me is to send an email to: jchavezc@uri.edu>
+contact_note: The best way to reach out to me is to send an email to jchavezc@uri.edu>
   You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
