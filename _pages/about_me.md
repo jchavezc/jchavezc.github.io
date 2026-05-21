@@ -1,4 +1,4 @@
-I am originally from Mexico City, Mexico.
+I am originally from Mexico City, Mexico. I attended college under a full-ride scholarship to Universidad Anáhuac to study Applied Math. After that...
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
