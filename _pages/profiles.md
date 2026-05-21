@@ -12,7 +12,7 @@ profiles:
   - align: right
     image: prof_pic.jpg
     content: about_me.md
-    image_circular: false # crops the image to make it circular
+    image_circular: false # crops the image to make it circular 
     more_info: >
       <p>200 F</p>
       <p>5 Lippitt Rd</p>
