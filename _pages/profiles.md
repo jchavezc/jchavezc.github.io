@@ -11,26 +11,28 @@ profiles:
   # and create one content file for each profile inside _pages/
   - align: right
     image: prof_pic.jpg
-    image_circular: false # crops the image to make it circular
-    content: >
-      I am originally from Mexico City, Mexico. I attended college under a full-ride scholarship to Universidad Anáhuac to study Applied Math. After that...
-      Also, I believe..
-      Finally,...
+    image_circular: false
     more_info: >
       <p>200 F</p>
       <p>5 Lippitt Rd</p>
       <p>Kingston, RI 02881</p>
+    content: >
+      This is the first paragraph for the first profile. You can write as much 
+      as you want on this line.
+
+      This is the second paragraph for the first profile. Leaving an empty line 
+      above it automatically creates a new paragraph on your webpage!
+
   - align: left
     image: prof_pic_color.png
-    image_circular: false # crops the image to make it circular
-    content: >
-      This will be Li Gan page bio details..
-      
-      Hopefully now works.
-
-      Please!
+    image_circular: false
     more_info: >
       <p>106F</p>
       <p>5 Lippitt Rd</p>
       <p>Kingston, RI 02881</p>
+    content: >
+      This is the first paragraph for Li Gan's profile details.
+      
+      This is the second paragraph. You can also use Markdown formatting inside 
+      this block, like **bold text** or *italics* if you want to.
 ---
