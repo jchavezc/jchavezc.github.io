@@ -11,7 +11,7 @@ profiles:
     image: prof_pic.jpg
     image_circular: false
     more_info: >
-      <p>200 F</p>
+      <p>200F,</p>
       <p>5 Lippitt Rd</p>
       <p>Kingston, RI 02881</p>
     content: profile_user1.md
@@ -26,7 +26,7 @@ profiles:
     image: prof_pic_color.png
     image_circular: false
     more_info: >
-      <p>106F</p>
+      <p>106F,</p>
       <p>5 Lippitt Rd</p>
       <p>Kingston, RI 02881</p>
     content: profile_user2.md
