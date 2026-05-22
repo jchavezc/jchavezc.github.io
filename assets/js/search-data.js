@@ -532,7 +532,7 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/jchavezc/", "_blank");
+          window.open("https://www.linkedin.com/in/jchavezc", "_blank");
         },
       },{
         id: 'social-orcid',
@@ -546,7 +546,7 @@ ninja.data = [{
         title: 'arXiv',
         section: 'Socials',
         handler: () => {
-          window.open("https://arxiv.org/a/0000-0002-8494-7538.html.html", "_blank");
+          window.open("https://arxiv.org/a/0000-0002-8494-7538.html", "_blank");
         },
       },{
         id: 'social-researchgate',
