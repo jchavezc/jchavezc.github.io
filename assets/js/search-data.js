@@ -532,28 +532,28 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in//in/jchavezc/", "_blank");
+          window.open("https://www.linkedin.com/in/jchavezc/", "_blank");
         },
       },{
         id: 'social-orcid',
         title: 'ORCID',
         section: 'Socials',
         handler: () => {
-          window.open("https://orcid.org//0000-0002-8494-7538", "_blank");
+          window.open("https://orcid.org/0000-0002-8494-7538", "_blank");
         },
       },{
         id: 'social-arxiv',
         title: 'arXiv',
         section: 'Socials',
         handler: () => {
-          window.open("https://arxiv.org/a//a/0000-0002-8494-7538.html.html", "_blank");
+          window.open("https://arxiv.org/a/0000-0002-8494-7538.html.html", "_blank");
         },
       },{
         id: 'social-researchgate',
         title: 'ResearchGate',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.researchgate.net/profile//profile/Jonathan-Chavez-Casillas-2/", "_blank");
+          window.open("https://www.researchgate.net/profile/Jonathan-Chavez-Casillas-2/", "_blank");
         },
       },{
       id: 'light-theme',
