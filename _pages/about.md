@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='www.math.uri.edu/~jchavezc'>Associate Professor at the University of Rhode Island</a>
+subtitle: <a href='https://www.math.uri.edu/meet/jonathan-chavez-casillas'> Associate Professor at the University of Rhode Island</a>
 profile:
   align: right
   image: prof_pic.jpg
