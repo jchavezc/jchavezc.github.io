@@ -68,6 +68,23 @@ EXPOSE 8080
 
 COPY bin/entry_point.sh /tmp/entry_point.sh
 
+
+services:
+  jekyll:
+    image: amirpourmand/al-folio:v0.14.6
+    working_dir: /srv/jekyll
+    ports:
+      - 4000:8080
+      - 35729:35729
+    volumes:
+      - .:/srv/jekyll
+    environment:
+      - JEKYLL_ENV=development
+    ### Add this block
+    command: >
+      bash -lc "bundle install &&
+                bundle exec jekyll serve --livereload --host 0.0.0.0 --port 8080"
+
 # uncomment this if you are having this issue with the build:
 # /usr/local/bundle/gems/jekyll-4.3.4/lib/jekyll/site.rb:509:in `initialize': Permission denied @ rb_sysopen - /srv/jekyll/.jekyll-cache/.gitignore (Errno::EACCES)
 # set the ownership of the jekyll site directory to the non-root user
