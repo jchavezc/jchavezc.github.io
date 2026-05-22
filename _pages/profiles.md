@@ -12,7 +12,7 @@ profiles:
   - align: right
     image: prof_pic.jpg
     image_circular: false # crops the image to make it circular
-    description: >
+    content: >
       I am originally from Mexico City, Mexico. I attended college under a full-ride scholarship to Universidad Anáhuac to study Applied Math. After that...
       Also, I believe..
       Finally,...
@@ -23,7 +23,7 @@ profiles:
   - align: left
     image: prof_pic_color.png
     image_circular: false # crops the image to make it circular
-    description: >
+    content: >
       This will be Li Gan page bio details..
       
       Hopefully now works.
