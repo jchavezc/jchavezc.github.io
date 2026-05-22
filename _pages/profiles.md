@@ -14,12 +14,7 @@ profiles:
       <p>200 F</p>
       <p>5 Lippitt Rd</p>
       <p>Kingston, RI 02881</p>
-    inline_bio: >
-      This is the first paragraph for the first profile. You can write as much 
-      as you want on this line.
-
-      This is the second paragraph for the first profile. Leaving an empty line 
-      above it automatically creates a new paragraph on your webpage!
+    content: profile_user1.md
 
   - align: left
     image: prof_pic_color.png
@@ -28,9 +23,5 @@ profiles:
       <p>106F</p>
       <p>5 Lippitt Rd</p>
       <p>Kingston, RI 02881</p>
-    inline_bio: >
-      This is the first paragraph for Li Gan's profile details.
-      
-      This is the second paragraph. You can also use Markdown formatting inside 
-      this block, like **bold text** or *italics* if you want to.
+    content: profile_user2.md
 ---
