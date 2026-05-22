@@ -24,7 +24,7 @@ profiles:
     image: prof_pic_color.png
     image_circular: false # crops the image to make it circular
     description: >
-      This will be Li Gan page bio details.
+      This will be Li Gan page bio details..
       
       Hopefully now works.
 
