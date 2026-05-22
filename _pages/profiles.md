@@ -7,8 +7,6 @@ nav: true
 nav_order: 7
 
 profiles:
-  # if you want to include more than one profile, just replicate the following block
-  # and create one content file for each profile inside _pages/
   - align: right
     image: prof_pic.jpg
     image_circular: false
@@ -16,7 +14,7 @@ profiles:
       <p>200 F</p>
       <p>5 Lippitt Rd</p>
       <p>Kingston, RI 02881</p>
-    content: >
+    inline_bio: >
       This is the first paragraph for the first profile. You can write as much 
       as you want on this line.
 
@@ -30,7 +28,7 @@ profiles:
       <p>106F</p>
       <p>5 Lippitt Rd</p>
       <p>Kingston, RI 02881</p>
-    content: >
+    inline_bio: >
       This is the first paragraph for Li Gan's profile details.
       
       This is the second paragraph. You can also use Markdown formatting inside 
