@@ -20,24 +20,25 @@ layout: page
           {% if profile.more_info %}
             <div class="more-info">{{ profile.more_info }}</div>
           {% endif %}
-          <!-- ADD THIS ICON BLOCK RIGHT HERE -->
+          
+          <!-- Icon Block -->
           <div class="profile-icons" style="font-size: 1.5rem; margin-top: 0.5rem;">
             {% if profile.email %}
               <a href="mailto:{{ profile.email }}"><i class="fa-solid fa-envelope"></i></a>&nbsp;
-             {% endif %}
-  {% if profile.linkedin %}
-    <a href="https://linkedin.com{{ profile.linkedin }}" target="_blank"><i class="fa-brands fa-linkedin"></i></a>&nbsp;
-  {% endif %}
-  {% if profile.orcid %}
-    <a href="https://orcid.org/{{ profile.orcid }}" target="_blank"><i class="ai ai-orcid"></i></a>&nbsp;
-  {% endif %}
-  {% if profile.arxiv %}
-    <a href="https://arxiv.org{{ profile.arxiv }}" target="_blank"><i class="ai ai-arxiv"></i></a>&nbsp;
-  {% endif %}
-  {% if profile.researchgate %}
-    <a href="https://www.researchgate.net/profile/{{ profile.researchgate }}" target="_blank"><i class="ai ai-researchgate"></i></a>&nbsp;
-  {% endif %}
-</div>
+            {% endif %}
+            {% if profile.linkedin %}
+              <a href="https://linkedin.com{{ profile.linkedin }}" target="_blank"><i class="fa-brands fa-linkedin"></i></a>&nbsp;
+            {% endif %}
+            {% if profile.orcid %}
+              <a href="https://orcid.org/{{ profile.orcid }}" target="_blank"><i class="ai ai-orcid"></i></a>&nbsp;
+            {% endif %}
+            {% if profile.arxiv %}
+              <a href="https://arxiv.org{{ profile.arxiv }}" target="_blank"><i class="ai ai-arxiv"></i></a>&nbsp;
+            {% endif %}
+            {% if profile.researchgate %}
+              <a href="https://www.researchgate.net/profile/{{ profile.researchgate }}" target="_blank"><i class="ai ai-researchgate"></i></a>&nbsp;
+            {% endif %}
+          </div>
         </div>
 
         <div class="clearfix">
