@@ -2,9 +2,9 @@ cv:
   name: Jonathan A. Chávez Casillas
   label: Mathematician
   email: jchavezc@uri.edu
-  location: 'Kingston, RI'
+  location: "Kingston, RI"
   image: ""
-  summary: 'A Mexican-born theoretical and applied mathematician, focused primarily in Stochastic Processes and their applications'
+  summary: "A Mexican-born theoretical and applied mathematician, focused primarily in Stochastic Processes and their applications"
 
   social_networks:
     - network: ORCID
@@ -15,7 +15,7 @@ cv:
       username: jchavezc
 
   address:
-    street: '5 Lippitt Rd, Suite 200'
+    street: "5 Lippitt Rd, Suite 200"
     city: Kingston
     region: Rhode Island
     postalCode: RI 02881
@@ -24,7 +24,7 @@ cv:
   sections:
     Education:
       - institution: Purdue University
-        location: 'West Lafayette, IN, USA'
+        location: "West Lafayette, IN, USA"
         url: https://www.math.purdue.edu/
         area: Mathematics
         studyType: PhD
@@ -33,18 +33,18 @@ cv:
         score: ""
         courses: ""
         highlights:
-          - 'PhD Thesis: Stochastic Modeling of Limit Order Books: Convergence of the Price Process, Simulation and Applications' 
+          - "PhD Thesis: Stochastic Modeling of Limit Order Books: Convergence of the Price Process, Simulation and Applications"
           - Available at https://docs.lib.purdue.edu/open_access_dissertations/1342/
 
       - institution: Purdue University
-        location: 'West Lafayette, IN, USA'
+        location: "West Lafayette, IN, USA"
         area: Computational Finance
         studyType: MSc
         start_date: 2013
         end_date: 2015
-        
+
       - institution: Universidad Anáhuac
-        location: 'Huixquilucan, Edo de México, México'
+        location: "Huixquilucan, Edo de México, México"
         url: https://www.anahuac.mx/licenciatura-en-actuaria
         area: Applied Mathematics
         studyType: BSc
@@ -53,24 +53,24 @@ cv:
         score: ""
         courses: ""
         highlights:
-          - 'BSc Thesis: On the numerical solution of High Order PDE using Stochastic Processes.' 
+          - "BSc Thesis: On the numerical solution of High Order PDE using Stochastic Processes."
 
     Experience:
       - company: University of Rhode Island
         position: Associate Professor
-        location: 'Kingston, RI, USA'
+        location: "Kingston, RI, USA"
         start_date: 2025
         end_date: -
 
       - company: University of Rhode Island
         position: Assistant Professor
-        location: 'Kingston, RI, USA'
+        location: "Kingston, RI, USA"
         start_date: 2017
         end_date: 2025
 
       - company: University of Calgary
         position: PIMS Postdoctoral Scholar in Stochastics
-        location: 'Calgary, AB, Canada'
+        location: "Calgary, AB, Canada"
         start_date: 2015
         end_date: 2017
 
