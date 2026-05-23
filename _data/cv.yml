@@ -74,21 +74,21 @@ cv:
         start_date: 2015
         end_date: 2017
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+    #Awards:
+    #  - title: Nobel Prize in Physics
+    #    authors:
+    #      - "Royal Swedish Academy of Sciences"
+    #    date: 1921-11-01
+    #    awarder: Royal Swedish Academy of Sciences
+    #    url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
+    #    summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+    #  - title: Max Planck Medal
+    #    authors:
+    #      - "German Physical Society"
+    #    date: 2029
+    #    awarder: German Physical Society
+    #    summary: Awarded for outstanding scientific achievement
 
     Publications:
       - title: Zur Elektrodynamik bewegter Körper
