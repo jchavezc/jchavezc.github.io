@@ -277,7 +277,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Chávez-Casillas, Chávez, Casillas
+  last_name: [Chávez-Casillas, Chávez, Casillas]
   first_name: [Jonathan A, Jonathan]
 
   style: apa
