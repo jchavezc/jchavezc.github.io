@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 description: Below you can find a description of some of the projects I have been worked on. I try to update them as my work allows me to.
 nav: true
-nav_order: 3
+nav_order: 5
 display_categories: [work, fun]
 horizontal: false
 ---
