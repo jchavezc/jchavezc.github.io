@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='https://www.math.uri.edu/meet/jonathan-chavez-casillas'> Associate Professor at the University of Rhode Island</a>
 profile:
