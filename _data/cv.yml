@@ -60,7 +60,7 @@ cv:
         position: Associate Professor
         location: "Kingston, RI, USA"
         start_date: 2025
-        end_date: "Present"
+        #end_date: "Present"
 
       - company: University of Rhode Island
         position: Assistant Professor
