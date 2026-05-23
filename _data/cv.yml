@@ -33,7 +33,7 @@ cv:
         score: ""
         courses: ""
         highlights:
-          - "PhD Thesis: Stochastic Modeling of Limit Order Books: Convergence of the Price Process, Simulation and Applications"
+          - "**PhD Thesis:** Stochastic Modeling of Limit Order Books: Convergence of the Price Process, Simulation and Applications"
           - Available at https://docs.lib.purdue.edu/open_access_dissertations/1342/
 
       - institution: Purdue University
@@ -54,7 +54,7 @@ cv:
         score: ""
         courses: ""
         highlights:
-          - "BSc Thesis: On the numerical solution of High Order PDE using Stochastic Processes."
+          - "**BSc Thesis:** On the numerical solution of High Order PDE using Stochastic Processes."
 
     Experience:
       - company: University of Rhode Island
