@@ -8,26 +8,21 @@ term: ""
 location: Online
 time: ""
 course_id: MTH106
+book: 
 schedule:
-  - week: 1
-    date: Feb 5
-    topic: Introduction to Data Science
-    description: Overview of the data science workflow and key concepts.
+  - week: 1 and 2
+    topic: Apportionment
+    description: Overview of some of the concepts, techniques and paradoxes in apportionment.
     materials:
-      - name: Syllabus
-        url: /assets/pdf/example_pdf.pdf
-      - name: Slides
-        url: /assets/pdf/example_pdf.pdf
+      - name: Open Source Textbook
+        url: https://www.opentextbookstore.com/mathinsociety/current2.php?chapter=Apportionment.pdf
 
-  - week: 2
-    date: Feb 12
-    topic: Data Collection and APIs
-    description: Methods for collecting data through APIs, web scraping, and databases.
+  - week: 3 and 4
+    topic: Growth models
+    description: OVerview of arithmetic, geometric and logistic growth and their assumptions/implications.
     materials:
-      - name: Lecture Notes
-        url: /assets/pdf/example_pdf.pdf
-      - name: Assignment 1
-        url: /assets/pdf/example_pdf.pdf
+      - name: Open Source Textbook
+        url: https://www.opentextbookstore.com/mathinsociety/current2.php?chapter=GrowthModels.pdf
 
   - week: 3
     date: Feb 19
