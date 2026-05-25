@@ -8,7 +8,7 @@ nav_order: 2
 calendar: true
 ---
 
-In this page, you can find some informaion on the courses I have taught.
+In this page, you can find some basic information on the courses I have taught.
 
 {% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
 
