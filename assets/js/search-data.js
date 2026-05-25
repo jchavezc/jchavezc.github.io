@@ -500,6 +500,11 @@ ninja.data = [{
           description: "This course continues the study of Calculus.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/Differential_Equations/";
+            },},{id: "teachings-functional-analysis-i",
+          title: 'Functional Analysis I',
+          description: "This course will explore how to deal with infinite dimensional vector spaces, particularly through Banach and Hilbert Spaces",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/Functional_Analysis_I/";
             },},{id: "teachings-linear-algebra",
           title: 'Linear Algebra',
           description: "This course continues the study of Calculus.",
