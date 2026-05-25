@@ -475,6 +475,26 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "teachings-calculus-i",
+          title: 'Calculus i',
+          description: "",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/Calculus%20I/";
+            },},{id: "teachings-calculus-ii",
+          title: 'Calculus ii',
+          description: "",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/Calculus%20II/";
+            },},{id: "teachings-linear-algebra",
+          title: 'Linear_algebra',
+          description: "",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/Linear_Algebra/";
+            },},{id: "teachings-mth-106-mathematics-of-social-choice-and-finance",
+          title: 'MTH 106: Mathematics of Social Choice and Finance',
+          description: "This course shows that mathematics can be a very practical discipline yet surprising. You will be introduced to a variety of subjects within mathematics with real world applications such as apportionment problems, how to use data and everyday finance.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/Math%20of%20Social%20Choice%20and%20Finance/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
