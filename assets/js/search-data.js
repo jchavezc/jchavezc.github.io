@@ -475,9 +475,9 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "teachings-",
-          title: '',
-          description: "",
+            },},{id: "teachings-advanced-engineering-math",
+          title: 'Advanced Engineering Math',
+          description: "This course provides the foundation of the major tools used in some engineering classes. We will cover topics from Complex Analysis, Linear Algebra and Differential Equations.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/Advanced_Engineering_Math/";
             },},{id: "teachings-calculus-i",
