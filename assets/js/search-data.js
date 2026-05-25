@@ -506,8 +506,8 @@ ninja.data = [{
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/Math_of_Social_Choice_and_Finance/";
             },},{id: "teachings-real-analysis-i",
-          title: 'Real_analysis_i',
-          description: "",
+          title: 'Real Analysis I',
+          description: "This course intends to formalize and expand the notions of calculus rigorously.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/Real_Analysis_I/";
             },},{id: "teachings-data-science-fundamentals",
