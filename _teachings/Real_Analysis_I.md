@@ -9,6 +9,8 @@ year: "Taught in the Past"
 #time: Mondays and Wednesdays, 2:00-3:30 PM
 course_id: MTH435
 
+---
+
 ## Course Overview
 
 This is a 400-level theoretical mathematical course in one of the
