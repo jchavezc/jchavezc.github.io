@@ -505,6 +505,11 @@ ninja.data = [{
           description: "This course shows that mathematics can be a very practical discipline yet surprising. You will be introduced to a variety of subjects within mathematics with real world applications such as apportionment problems, how to use data and everyday finance.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/Math_of_Social_Choice_and_Finance/";
+            },},{id: "teachings-mathematical-statistics",
+          title: 'Mathematical Statistics',
+          description: "This course intends to formalize the concepts of Mathematical Statistics such as Point Estimators, Hypothesis Testing and Confidence Intervals.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/Mathematical_Statistics/";
             },},{id: "teachings-introduction-to-probability-and-statistics",
           title: 'Introduction to Probability and Statistics',
           description: "This course provides the foundation of probability theory and explores some basic concepts in Statistics, like hypothesis testing.",
