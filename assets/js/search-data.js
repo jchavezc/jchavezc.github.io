@@ -535,6 +535,11 @@ ninja.data = [{
           description: "This course is the Graduate Version of MTH 471",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/Numerical_Analysis_Graduate_Version/";
+            },},{id: "teachings-predictive-analytics",
+          title: 'Predictive Analytics',
+          description: "This course explores the main algorithms used in Predictive Analytics more from a theoretical point of view rather than from blind application for them.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/Predictive_Analytics/";
             },},{id: "teachings-introduction-to-probability-and-statistics",
           title: 'Introduction to Probability and Statistics',
           description: "This course provides the foundation of probability theory and explores some basic concepts in Statistics, like hypothesis testing.",
