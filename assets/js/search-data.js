@@ -520,6 +520,11 @@ ninja.data = [{
           description: "This is the Graduate Version of MTH 452.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/Mathematical_Statistics_Grad_Version/";
+            },},{id: "teachings-numerical-analysis",
+          title: 'Numerical Analysis',
+          description: "This course will explain how integrals, derviatives and other quantities are approximated in the computer for their computation.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/Numerical_Analysis/";
             },},{id: "teachings-introduction-to-probability-and-statistics",
           title: 'Introduction to Probability and Statistics',
           description: "This course provides the foundation of probability theory and explores some basic concepts in Statistics, like hypothesis testing.",
