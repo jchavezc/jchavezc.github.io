@@ -496,8 +496,8 @@ ninja.data = [{
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/Differential_Equations/";
             },},{id: "teachings-linear-algebra",
-          title: 'Linear_algebra',
-          description: "",
+          title: 'Linear Algebra',
+          description: "This course continues the study of Calculus.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/Linear_Algebra/";
             },},{id: "teachings-mth-106-mathematics-of-social-choice-and-finance",
