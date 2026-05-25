@@ -494,7 +494,7 @@ ninja.data = [{
           title: 'MTH 106: Mathematics of Social Choice and Finance',
           description: "This course shows that mathematics can be a very practical discipline yet surprising. You will be introduced to a variety of subjects within mathematics with real world applications such as apportionment problems, how to use data and everyday finance.",
           section: "Teachings",handler: () => {
-              window.location.href = "/teachings/Math%20of%20Social%20Choice%20and%20Finance/";
+              window.location.href = "/teachings/Math_of_Social_Choice_and_Finance/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
