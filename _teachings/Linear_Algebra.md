@@ -3,8 +3,8 @@ layout: course
 title: Linear Algebra
 description: This course continues the study of Calculus.
 instructor: Prof. Chávez Casillas
-#year: 
-term: Summer Only
+year: "Typically in Summer"
+#term: Summer Only
 location: Online
 #time: Mondays and Wednesdays, 2:00-3:30 PM
 course_id: MTH215
