@@ -480,6 +480,11 @@ ninja.data = [{
           description: "This course provides the foundation of the major tools used in some engineering classes. We will cover topics from Complex Analysis, Linear Algebra and Differential Equations.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/Advanced_Engineering_Math/";
+            },},{id: "teachings-basic-stochastic-processes",
+          title: 'Basic Stochastic Processes',
+          description: "This course intends to introduce the basic concepts in Stochastic Processes, such as MArkov Chains, Poisson Processes and Brownian Motion.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/Basic_Stochastic_Processes/";
             },},{id: "teachings-calculus-i",
           title: 'Calculus I',
           description: "This course introduces the study of Calculus.",
