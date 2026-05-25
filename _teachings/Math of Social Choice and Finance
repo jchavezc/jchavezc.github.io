@@ -3,7 +3,7 @@ layout: course
 title: 'MTH 106: Mathematics of Social Choice and Finance'
 description: This course shows that mathematics can be a very practical discipline yet surprising. You will be introduced to a variety of subjects within mathematics with real world applications such as apportionment problems, how to use data and everyday finance.
 instructor: Prof. Chávez Casillas
-year: "Multiple years"
+year: "Frequently taught"
 term: ""
 location: Online
 time: ""
@@ -24,69 +24,46 @@ schedule:
       - name: Open Source Textbook
         url: https://www.opentextbookstore.com/mathinsociety/current2.php?chapter=GrowthModels.pdf
 
-  - week: 3
-    date: Feb 19
-    topic: Data Cleaning and Preprocessing
-    description: Techniques for handling missing values, outliers, and data transformation.
+  - week: 5 and 6
+    topic: Finances
+    description: Learn about the basics of interest and how to compute the value of some basic financial instruments.
     materials:
-      - name: Lecture Notes
-        url: /assets/pdf/example_pdf.pdf
-      - name: Coding Lab
-        url: https://github.com/
+      - name: Open Source Textbook
+        url: https://www.opentextbookstore.com/mathinsociety/current2.php?chapter=Finance.pdf
 
-  - week: 4
-    date: Feb 26
-    topic: Exploratory Data Analysis
-    description: Descriptive statistics, visualization, and pattern discovery.
+  - week: 7 and 8
+    topic: Statistics
+    description: Learn the basic statistical measures.
     materials:
-      - name: Lecture Notes
-        url: /assets/pdf/example_pdf.pdf
-      - name: Assignment 2
-        url: /assets/pdf/example_pdf.pdf
+      - name: Open Source Textbook
+        url: https://www.opentextbookstore.com/mathinsociety/current2.php?chapter=Statistics.pdf
 
-  - week: 5
-    date: Mar 4
-    topic: Statistical Analysis
-    description: Hypothesis testing, confidence intervals, and statistical inference.
+  - week: 9 and 10
+    topic: Describing Data
+    description: Learn how to present data and how to read graphs.
     materials:
-      - name: Lecture Notes
-        url: /assets/pdf/example_pdf.pdf
-      - name: Review Materials
-        url: /assets/pdf/example_pdf.pdf
+      - name: Open Source Textbook
+        url: https://www.opentextbookstore.com/mathinsociety/current2.php?chapter=DescribingData.pdf
 
-  - week: 6
-    date: Mar 11
-    topic: Data Visualization
-    description: Principles and tools for effective data visualization.
+  - week: 11 and 12
+    topic: Cryptography
+    description: Learn the usage and basic techiniques of Cryptography.
     materials:
-      - name: Lecture Notes
-        url: /assets/pdf/example_pdf.pdf
+      - name: Open Source Textbook.
+        url: https://www.opentextbookstore.com/mathinsociety/current2.php?chapter=Cryptography.pdf
       - name: Assignment 3
         url: /assets/pdf/example_pdf.pdf
+
+  - week: 11 ato 13
+    topic: Course Project
+    description: Plan your futue financially according to your particular life situation
+
 ---
 
-## Course Overview
-
-This course provides a comprehensive introduction to data science principles and practices. Students will:
-
-- Learn the end-to-end data science workflow
-- Gain practical experience with data manipulation tools
-- Develop skills in data visualization and communication
-- Apply statistical methods to derive insights from data
-
-## Prerequisites
-
-- Basic programming knowledge (preferably in Python)
-- Introductory statistics
-- Comfort with basic algebra
-
-## Textbooks
-
-- "Python for Data Analysis" by Wes McKinney
-- "Data Science from Scratch" by Joel Grus
 
 ## Grading
 
-- Assignments: 50%
-- Project: 40%
-- Participation: 10%
+- Online Quizzes: 30%
+- Worksheets: 30%
+- Project: 20%
+- Participation (via Discussion forums): 20%
