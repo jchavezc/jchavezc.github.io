@@ -486,13 +486,13 @@ ninja.data = [{
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/Calculus_I/";
             },},{id: "teachings-calculus-ii",
-          title: 'Calculus_ii',
-          description: "",
+          title: 'Calculus II',
+          description: "This course continues the study of Calculus.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/Calculus_II/";
             },},{id: "teachings-differential-equations",
-          title: 'Differential_equations',
-          description: "",
+          title: 'Differential Equations',
+          description: "This course continues the study of Calculus.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/Differential_Equations/";
             },},{id: "teachings-linear-algebra",
