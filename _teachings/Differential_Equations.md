@@ -9,6 +9,8 @@ location: Online
 #time: Mondays and Wednesdays, 2:00-3:30 PM
 course_id: MTH244
 
+---
+
 ## Course Overview
 
 This is a typical introductory course in differential equations. It
