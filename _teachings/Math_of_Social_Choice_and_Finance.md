@@ -16,7 +16,7 @@ book: Open Source Textbook *Math in Society* by Lippmann
   topic: Apportionment
   description: Overview of some of the concepts, techniques and paradoxes in apportionment.
   materials:
-  - https://www.opentextbookstore.com/mathinsociety/current2.php?chapter=Apportionment.pdf
+    - https://www.opentextbookstore.com/mathinsociety/current2.php?chapter=Apportionment.pdf
 
 - week: 3 and 4
   topic: Growth Models
@@ -50,7 +50,7 @@ book: Open Source Textbook *Math in Society* by Lippmann
 
 - week: 11 to 13
   topic: Course Project
-  description: Plan your future financially according to your particular life situat
+  description: Plan your future financially according to your particular life situation.
 
 
 
