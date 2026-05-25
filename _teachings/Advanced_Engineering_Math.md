@@ -1,15 +1,14 @@
 ---
 layout: course
 title: Advanced Engineering Math
-description:  This course provides the foundation of the major tools used in some
-engineering classes. We will cover topics from Complex Analysis, Linear Algebra and Differential
-Equations.
+description: This course provides the foundation of the major tools used in some
+  engineering classes. We will cover topics from Complex Analysis, Linear Algebra and Differential
+  Equations.
 year: 2026
 term: Fall
 location: Lippitt 204
 time: Tuesday and Thursday, 12:30-1:45 PM
 course_id: MTH362
-
 ---
 
 ## Course Overview
