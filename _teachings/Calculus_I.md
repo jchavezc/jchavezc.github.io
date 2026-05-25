@@ -9,6 +9,9 @@ location: Online
 #time: Mondays and Wednesdays, 2:00-3:30 PM
 course_id: MTH141
 
+---
+
+
 ## Course Overview
 
 Math 141 introduces the study of calculus. Topics discussed in the course include functions and
