@@ -510,6 +510,11 @@ ninja.data = [{
           description: "This course intends to formalize the concepts of Mathematical Statistics such as Point Estimators, Hypothesis Testing and Confidence Intervals.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/Mathematical_Statistics/";
+            },},{id: "teachings-mathematical-statistics",
+          title: 'Mathematical Statistics',
+          description: "This is the Graduate Version of MTH 452.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/Mathematical_Statistics_Grad_Version/";
             },},{id: "teachings-introduction-to-probability-and-statistics",
           title: 'Introduction to Probability and Statistics',
           description: "This course provides the foundation of probability theory and explores some basic concepts in Statistics, like hypothesis testing.",
