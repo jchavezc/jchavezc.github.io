@@ -505,6 +505,11 @@ ninja.data = [{
           description: "This course shows that mathematics can be a very practical discipline yet surprising. You will be introduced to a variety of subjects within mathematics with real world applications such as apportionment problems, how to use data and everyday finance.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/Math_of_Social_Choice_and_Finance/";
+            },},{id: "teachings-introduction-to-probability-and-statistics",
+          title: 'Introduction to Probability and Statistics',
+          description: "This course provides the foundation of probability theory and explores some basic concepts in Statistics, like hypothesis testing.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/Probability/";
             },},{id: "teachings-real-analysis-i",
           title: 'Real Analysis I',
           description: "This course intends to formalize and expand the notions of calculus rigorously.",
