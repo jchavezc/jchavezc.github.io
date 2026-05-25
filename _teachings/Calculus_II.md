@@ -9,6 +9,8 @@ location: Online
 #time: Mondays and Wednesdays, 2:00-3:30 PM
 course_id: MTH142
 
+---
+
 ## Course Overview
 
 Math 142 continues the study of calculus where Math 141 left off with the integral. 
