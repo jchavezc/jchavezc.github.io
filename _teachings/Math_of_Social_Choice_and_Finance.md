@@ -13,21 +13,32 @@ book: Open Source Textbook *Math in Society* by Lippmann
 
 ## Schedule
 - week: 1 and 2
+  
   topic: Apportionment
+  
   description: Overview of some of the concepts, techniques and paradoxes in apportionment.
+  
   materials:
     - https://www.opentextbookstore.com/mathinsociety/current2.php?chapter=Apportionment.pdf
 
+
 - week: 3 and 4
+  
   topic: Growth Models
+  
   description: Overview of arithmetic, geometric and logistic growth and their assumptions/implications.
+  
   materials:
     - https://www.opentextbookstore.com/mathinsociety/current2.php?chapter=GrowthModels.pdf
 
 - week: 5 and 6
+  
   topic: Finances
+  
   description: Learn about the basics of interest and how to compute the value of some basic financial instruments.
+  
   materials:
+  
     - https://www.opentextbookstore.com/mathinsociety/current2.php?chapter=Finance.pdf
 
 - week: 7 and 8
