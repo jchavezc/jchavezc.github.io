@@ -16,43 +16,37 @@ book: Open Source Textbook *Math in Society* by Lippmann
   topic: Apportionment
   description: Overview of some of the concepts, techniques and paradoxes in apportionment.
   materials:
-    - name: Open Source Textbook
-      url: https://www.opentextbookstore.com/mathinsociety/current2.php?chapter=Apportionment.pdf
+  - https://www.opentextbookstore.com/mathinsociety/current2.php?chapter=Apportionment.pdf
 
 - week: 3 and 4
   topic: Growth Models
   description: Overview of arithmetic, geometric and logistic growth and their assumptions/implications.
   materials:
-    - name: Open Source Textbook
-      url: https://www.opentextbookstore.com/mathinsociety/current2.php?chapter=GrowthModels.pdf
+    - https://www.opentextbookstore.com/mathinsociety/current2.php?chapter=GrowthModels.pdf
 
 - week: 5 and 6
   topic: Finances
   description: Learn about the basics of interest and how to compute the value of some basic financial instruments.
   materials:
-    - name: Open Source Textbook
-      url: https://www.opentextbookstore.com/mathinsociety/current2.php?chapter=Finance.pdf
+    - https://www.opentextbookstore.com/mathinsociety/current2.php?chapter=Finance.pdf
 
 - week: 7 and 8
   topic: Statistics
   description: Learn the basic statistical measures.
   materials:
-    - name: Open Source Textbook
-      url: https://www.opentextbookstore.com/mathinsociety/current2.php?chapter=Statistics.pdf
+    - https://www.opentextbookstore.com/mathinsociety/current2.php?chapter=Statistics.pdf
 
 - week: 9 and 10
   topic: Describing Data
   description: Learn how to present data and how to read graphs.
   materials:
-    - name: Open Source Textbook
-      url: https://www.opentextbookstore.com/mathinsociety/current2.php?chapter=DescribingData.pdf
+    - https://www.opentextbookstore.com/mathinsociety/current2.php?chapter=DescribingData.pdf
 
 - week: 11 and 12
   topic: Cryptography
   description: Learn the usage and basic techniques of Cryptography.
   materials:
-    - name: Open Source Textbook
-      url: https://www.opentextbookstore.com/mathinsociety/current2.php?chapter=Cryptography.pdf
+    - https://www.opentextbookstore.com/mathinsociety/current2.php?chapter=Cryptography.pdf
 
 - week: 11 to 13
   topic: Course Project
