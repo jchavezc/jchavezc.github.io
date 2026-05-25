@@ -9,6 +9,8 @@ location: Online
 #time: Mondays and Wednesdays, 2:00-3:30 PM
 course_id: MTH215
 
+---
+
 ## Course Overview
 
 This is a typical introductory course to Linear Algebra. It lays its foundations in the theory of Matrices
