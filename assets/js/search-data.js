@@ -525,6 +525,11 @@ ninja.data = [{
           description: "This course will explain how integrals, derviatives and other quantities are approximated in the computer for their computation.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/Numerical_Analysis/";
+            },},{id: "teachings-numerical-analysis",
+          title: 'Numerical Analysis',
+          description: "This course is the Graduate Version of MTH 471",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/Numerical_Analysis_Graduate_Version/";
             },},{id: "teachings-introduction-to-probability-and-statistics",
           title: 'Introduction to Probability and Statistics',
           description: "This course provides the foundation of probability theory and explores some basic concepts in Statistics, like hypothesis testing.",
