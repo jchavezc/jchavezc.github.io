@@ -510,6 +510,11 @@ ninja.data = [{
           description: "This course continues the study of Calculus.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/Linear_Algebra/";
+            },},{id: "teachings-introduction-to-the-mathematical-analysis-of-data",
+          title: 'Introduction to the Mathematical Analysis of Data',
+          description: "This course will explore the mathematics of some advanced important methods such as Monte Carlo Methods, EM method, MCMC method and others.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/Math_of_Data_Science/";
             },},{id: "teachings-mth-106-mathematics-of-social-choice-and-finance",
           title: 'MTH 106: Mathematics of Social Choice and Finance',
           description: "This course shows that mathematics can be a very practical discipline yet surprising. You will be introduced to a variety of subjects within mathematics with real world applications such as apportionment problems, how to use data and everyday finance.",
