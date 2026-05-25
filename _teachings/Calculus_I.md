@@ -3,8 +3,8 @@ layout: course
 title: Calculus I
 description: This course introduces the study of Calculus.
 instructor: Prof. Chávez Casillas
-#year: 
-term: Summer Only
+year: "Summer Only"
+#term: Summer Only
 location: Online
 #time: Mondays and Wednesdays, 2:00-3:30 PM
 course_id: MTH141
