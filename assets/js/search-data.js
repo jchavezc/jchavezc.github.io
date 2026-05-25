@@ -481,8 +481,8 @@ ninja.data = [{
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/Advanced_Engineering_Math/";
             },},{id: "teachings-calculus-i",
-          title: 'Calculus_i',
-          description: "",
+          title: 'Calculus I',
+          description: "This course introduces the study of Calculus.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/Calculus_I/";
             },},{id: "teachings-calculus-ii",
