@@ -475,16 +475,16 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "teachings-calculus-ii",
-          title: 'Calculus ii',
-          description: "",
-          section: "Teachings",handler: () => {
-              window.location.href = "/teachings/Calculus%20II/";
             },},{id: "teachings-calculus-i",
           title: 'Calculus_i',
           description: "",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/Calculus_I/";
+            },},{id: "teachings-calculus-ii",
+          title: 'Calculus_ii',
+          description: "",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/Calculus_II/";
             },},{id: "teachings-linear-algebra",
           title: 'Linear_algebra',
           description: "",
