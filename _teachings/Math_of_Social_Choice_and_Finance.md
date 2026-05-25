@@ -12,7 +12,7 @@ book: Open Source Textbook *Math in Society* by Lippmann
 ---
 
 ## Schedule
-- week: 1 and 2
+- **week:** 1 and 2
   
   topic: Apportionment
   
@@ -42,25 +42,36 @@ book: Open Source Textbook *Math in Society* by Lippmann
     - https://www.opentextbookstore.com/mathinsociety/current2.php?chapter=Finance.pdf
 
 - week: 7 and 8
+  
   topic: Statistics
+  
   description: Learn the basic statistical measures.
+  
   materials:
     - https://www.opentextbookstore.com/mathinsociety/current2.php?chapter=Statistics.pdf
 
 - week: 9 and 10
+  
   topic: Describing Data
+  
   description: Learn how to present data and how to read graphs.
+  
   materials:
     - https://www.opentextbookstore.com/mathinsociety/current2.php?chapter=DescribingData.pdf
 
 - week: 11 and 12
+  
   topic: Cryptography
+  
   description: Learn the usage and basic techniques of Cryptography.
+  
   materials:
     - https://www.opentextbookstore.com/mathinsociety/current2.php?chapter=Cryptography.pdf
 
 - week: 11 to 13
+  
   topic: Course Project
+  
   description: Plan your future financially according to your particular life situation.
 
 
