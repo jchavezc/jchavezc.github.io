@@ -8,8 +8,11 @@ term: ""
 location: Online
 time: ""
 course_id: MTH106
-book: 
-schedule:
+book: Open Source Textbook *Math in Society* by Lippmann
+---
+
+## Schedule
+
   - week: 1 and 2
     topic: Apportionment
     description: Overview of some of the concepts, techniques and paradoxes in apportionment.
@@ -58,7 +61,6 @@ schedule:
     topic: Course Project
     description: Plan your futue financially according to your particular life situation
 
----
 
 
 ## Grading
