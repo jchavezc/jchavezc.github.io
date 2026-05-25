@@ -485,6 +485,11 @@ ninja.data = [{
           description: "",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/Calculus_II/";
+            },},{id: "teachings-differential-equations",
+          title: 'Differential_equations',
+          description: "",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/Differential_Equations/";
             },},{id: "teachings-linear-algebra",
           title: 'Linear_algebra',
           description: "",
