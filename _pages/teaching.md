@@ -10,6 +10,8 @@ calendar: true
 
 In this page, you can find some basic information on the courses I have taught.
 
-# {% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
+{% comment %}
+{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
+{% endcomment %}
 
 {% include courses.liquid %}
