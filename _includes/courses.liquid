@@ -1,8 +1,30 @@
 {% if site.teachings %}
   <div class="courses">
-    {% assign courses_by_year = site.teachings | sort: 'year' | reverse | group_by: 'year' %}
+    {% comment %} Group the courses by year string first {% endcomment %}
+    {% assign courses_by_year = site.teachings | group_by: 'year' %}
 
-    {% for year_group in courses_by_year %}
+    {% comment %} Initialize separate lists for numeric years and alphanumeric labels {% endcomment %}
+    {% assign numerical_years = "" | split: "" %}
+    {% assign text_years = "" | split: "" %}
+
+    {% comment %} Sort categories into the numeric vs text arrays {% endcomment %}
+    {% for group in courses_by_year %}
+      {% assign check_numeric = group.name | plus: 0 %}
+      {% if check_numeric > 0 %}
+        {% assign numerical_years = numerical_years | push: group %}
+      {% else %}
+        {% assign text_years = text_years | push: group %}
+      {% endif %}
+    {% endfor %}
+
+    {% comment %} Sort numerical years cleanly from most recent down to oldest {% endcomment %}
+    {% assign numerical_years = numerical_years | sort: "name" | reverse %}
+
+    {% comment %} Combine them together: numbers first, text groups second {% endcomment %}
+    {% assign sorted_courses_by_year = numerical_years | concat: text_years %}
+
+    {% comment %} Loop through our new custom sorted groups exactly using your layout {% endcomment %}
+    {% for year_group in sorted_courses_by_year %}
       <h2 class="year">{{ year_group.name }}</h2>
       <div class="course-list">
         {% assign year_courses = year_group.items | sort: 'term' %}
