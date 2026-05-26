@@ -430,9 +430,9 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-modeling-the-limit-order-book-from-a-microscopic-scale",
-          title: 'Modeling the Limit Order Book from a Microscopic scale',
-          description: "with background image",
+          section: "News",},{id: "projects-modeling-the-limit-order-book",
+          title: 'Modeling the Limit Order Book',
+          description: "from a Microscopic Scale",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
