@@ -1,12 +1,21 @@
 ---
 layout: page
-title: project 1
+title: Modeling the Limit Order Book from a Microscopic scale
 description: with background image
-img: assets/img/12.jpg
+img: assets/img/LOB_cover.jpg
 importance: 1
 category: work
 related_publications: true
 ---
+
+To understand this project, we first need to talk about what is a Limit Order Book (LOB) and how it relates to the price formation process.
+
+
+The resulting published work from this project on my side can be found in {% cite chavez2019level %}, {% cite chavez3 %}, {% cite chavez2024CompEc %} and {% cite chavez1 %}. 
+
+
+
+
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
