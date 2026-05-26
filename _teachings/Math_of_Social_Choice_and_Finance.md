@@ -3,8 +3,8 @@ layout: course
 title: 'MTH 106: Mathematics of Social Choice and Finance'
 description: This course shows that mathematics can be a very practical discipline yet surprising. You will be introduced to a variety of subjects within mathematics with real world applications such as apportionment problems, how to use data and everyday finance.
 instructor: Prof. Chávez Casillas
-year: "Frequently taught"
-term: ""
+year: 2026
+term: Fall
 location: Online
 time: ""
 course_id: MTH106
