@@ -86,8 +86,8 @@ dynamics. Consider, for example, a buy (resp., sell) limit order arriving at a
 certain time $t$ with price $p_t$. Let $a_t$ and $b_t$ denote the current price
 of the best ask and bid at time $t$. Moreover, let also $s_t = a_t - b_t$ denote
 the bid-ask spread at time $t$ and assume, for illustration purposes, that
-$s_t > 1$. If the arriving order has price $p_t < b_t$ (resp., $p_t
-> a_t$) then it will increase the amount of outstanding limit orders at
+$s_t > 1$. If the arriving order has price $p_t < b_t$ (resp., $p_t>a_t$) then
+it will increase the amount of outstanding limit orders at
 price $p_t$. However, if $b_t < p_t < a_t$, that order will become the
 best bid (respectively, best ask), hence, increasing (resp. decreasing) the
 mid-price. On the other hand, if the order is a market order to sell (resp.,
