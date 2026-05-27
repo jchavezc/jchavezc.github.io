@@ -125,6 +125,40 @@ situation, devising optimal order execution strategies or optimal placement
 strategies, minimizing the market impact; designing better electronic trading
 algorithms, and assessing market stability.
 
+In terms of modeling, we can follow a classical approach of a toy model as presented in 
+{% cite ContLarrard2012 %}. In here, we can do an overarching model as presented below:
+
+- Let $L_t^{(a/b;n)}$ be the process that define the arrival or Limit Orders at the $n-$th level of the ask/bid side of the orderbook.
+- Similarly, $M_t^{(a/b;n)}$ will denote the processes determining the arrival of Market Orders at the $n-$th level of the ask/bid side of the orderbook.
+- Also, let $C_t^{(a/b;n)}$ be the process driving the cancellations at the the $n-$th level of the ask/bid side of the orderbook.
+
+In terms of the volumes, we can denote by
+
+- $V_t^{(a/b,L/M/C,n)}$ the volume of the corresponding limit order, market order or cancellation arriving at the ask or bid side at level $n$.
+
+Another imnportant quantity that we need to track is the current volume at the order book. Indeed,
+
+- Let $Q_t^{(a/b,n)}$ be the amount of outstanding limit orders at time $t$ at level $n$ on the ask/bid side. 
+
+Some important quantities in our study, that we need to analyze carefully, are
+the times that a price change occurs.
+
+Let $\sigma_1^{(a/b)}$ be the first time that a price change occurs from the ask or bid side. That is,
+
+- let $\tau_1^{(a/b)}=\inf\{t\geq0\;|\;Q_0^{(a/b)}+L_t^{(a/b;1)}-M_t^{(a/b);1}-C_t^{(a/b;1)}=0\}$.
+
+Notice that $\sigma_1^{(a/b)}$ is indeed the firt time a price change from the ask/bid occurs
+as it becomes the first moment that Market Orders and Cancellations from the ask/bid at level 1 
+deplete the available number of original Limit Orders at level 1 plus the further Limit Orders 
+at level 1 that have arrived at the corresponding side of the book. Then, naturally, the
+first time a price change occurs is 
+
+- $\tau_1=\min\{\sigma^{(a)}_1,\sigma^{(b)}_1\}$.
+
+In this fashion, we can continue quantifying when price changes occur on the LOB.
+
+
+
 The resulting published work from this project on my side can be found in {% cite chavez2019level %},
 {% cite chavez3 %}, {% cite chavez2024CompEc %} and {% cite Chavez1 %}. 
 
