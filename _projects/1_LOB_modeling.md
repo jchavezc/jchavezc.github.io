@@ -49,7 +49,7 @@ In addition to limit orders and market orders, cancellation of limit orders is
 another common operation. The basic idea of a cancellation is that a trader is
 no longer willing to buy or sell at the specified price. Cancellations account
 for a large fraction of the operations on an order book, partly due to the
-introduction and evolution of high frequency trading, in
+introduction and evolution of high frequency trading, in 
 which the inter-arrival times of limit orders and cancellations, occur at a
 millisecond time scale.
 
