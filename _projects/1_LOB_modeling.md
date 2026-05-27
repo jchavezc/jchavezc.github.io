@@ -130,22 +130,21 @@ In terms of modeling, we can follow a classical approach of a toy model as prese
 
 - Let ${}^{a/b}L_t^{(n)}$ be the process that define the arrival or Limit Orders at the $n-$th level of the ask/bid side of the orderbook.
 - Similarly, ${}^{a/b}M_t^{(n)}$ will denote the processes determining the arrival of Market Orders at the $n-$th level of the ask/bid side of the orderbook.
-- Also, let $C_t^{(a/b;n)}$ be the process driving the cancellations at the the $n-$th level of the ask/bid side of the orderbook.
+- Also, let $C_t^{(n)}$ be the process driving the cancellations at the the $n-$th level of the ask/bid side of the orderbook.
 
 In terms of the volumes, we can denote by
 
-- ${}^{a/b}V_t^{(L/M/C\;;\;n)}$ the volume of the corresponding limit order, market order or cancellation arriving at the ask or bid side at level $n$.
+- ${}^{a/b}V_t^{(L\;;\;n)},{}^{a/b}V_t^{(M\;;\;n)}$ and ${}^{a/b}V_t^{(C\;;\;n)}$  the volume of the corresponding limit order, market order or cancellation arriving at the ask or bid side at level $n$.
 
-Another imnportant quantity that we need to track is the current volume at the order book. Indeed,
+Another imnportant quantity that we need to keep track of is the current volume at the order book. With this is mind,
 
 - Let ${}^{a/b}Q_t^{(n)}$ be the amount of outstanding limit orders at time $t$ at level $n$ on the ask/bid side. 
 
-Some important quantities in our study, that we need to analyze carefully, are
-the times that a price change occurs.
+Finally, we need to account for the time the price changes occur and understand their statistical properties. Indeed,
 
 Let $\sigma_1^{(a/b)}$ be the first time that a price change occurs from the ask or bid side. That is,
 
-- let $\sigma_1^{(a/b)}=\inf\left.\left\{t\geq0\ \right|\ Q_0^{(a/b)}+L_t^{(a/b;1)}-M_t^{(a/b);1}-C_t^{(a/b;1)}=0\right\}$.
+- let $\sigma_1^{(a/b)}=\inf\left\{ t\geq0\ Big|\ Q_0^{(a/b)}+L_t^{(a/b;1)}-M_t^{(a/b);1}-C_t^{(a/b;1)}=0\right\}$.
 
 Notice that $\sigma_1^{(a/b)}$ is indeed the firt time a price change from the ask/bid occurs
 as it becomes the first moment that Market Orders and Cancellations from the ask/bid at level 1 
@@ -153,7 +152,7 @@ deplete the available number of original Limit Orders at level 1 plus the furthe
 at level 1 that have arrived at the corresponding side of the book. Then, naturally, the
 first time a price change occurs is 
 
-- $\tau_1=\min\left\{\sigma^{(a)}_1,\sigma^{(b)}_1\right\}$.
+- $\tau_1=\min\left\{ \sigma^{(a)}_1,\sigma^{(b)}_1 \right\}$.
 
 In this fashion, we can continue quantifying when price changes occur on the LOB.
 
