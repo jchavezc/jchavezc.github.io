@@ -144,7 +144,7 @@ Finally, we need to account for the time the price changes occur and understand 
 
 Let $\sigma_1^{(a/b)}$ be the first time that a price change occurs from the ask or bid side. That is,
 
-- let $ \sigma_1^{(a/b)} = \inf\left\\{ t \geq 0 \middle| Q_0^{(a/b)} + L_t^{(a/b;1)} - M_t^{(a/b;1)} - C_t^{(a/b;1)} = 0 \right\\}$.
+- let $ \sigma_1^{(a/b)} = \inf\left\\{ t \geq 0 \mid Q_0^{(a/b)} + L_t^{(a/b;1)} - M_t^{(a/b;1)} - C_t^{(a/b;1)} = 0 \right\\}$.
 
 Notice that $\sigma_1^{(a/b)}$ is indeed the firt time a price change from the ask/bid occurs
 as it becomes the first moment that Market Orders and Cancellations from the ask/bid at level 1 
