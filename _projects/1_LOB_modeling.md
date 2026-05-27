@@ -62,11 +62,68 @@ A pictorial representation of the LOB can be seen in the following figure.
     </div>
 </div>
 <div class="caption">
-    The image represents the LOB as a queueing system.
+   Graphical representation of a Limit Order Book. The Bid Limit orders (to the left) are displayed in blue, while the Ask limit orders (to the right) are displayed in red.
 </div>
 
 
+To better understand the dynamic behaviour of the LOB the following example, 
+taken from {% cite Abergel2011 %}, is presented.
 
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/LOBdevelop.png" title="Operations in a Limit Order Book" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+   A possible evolution of the LOB. First, a large Ask Market order arrives, taking out liquidity and causing the spread to widen. Then, a small Ask Limit Order arrives, followed  by a Cancellation on the Bid side. Finally, Ask and Bid Limit orders are posted within the spread, causing this to reduce in length.
+</div>
+
+As illustrated from the figure, the different types of operations in a LOB may
+or may not affect the prices. Understanding how these operations affect these
+best prices is crucial in developing a parsimonious model for the price
+dynamics. Consider, for example, a buy (resp., sell) limit order arriving at a
+certain time $t$ with price $p_t$. Let $a_t$ and $b_t$ denote the current price
+of the best ask and bid at time $t$. Moreover, let also $s_t = a_t - b_t$ denote
+the bid-ask spread at time $t$ and assume, for illustration purposes, that
+$s_t \more 1$. If the arriving order has price $p_t \less b_t$ (resp., $p_t
+\more a_t$) then it will increase the amount of outstanding limit orders at
+price $p_t$. However, if $b_t \less p_t \less a_t$, that order will become the
+best bid (respectively, best ask), hence, increasing (resp. decreasing) the
+mid-price. On the other hand, if the order is a market order to sell (resp.,
+buy), this will decrease the amount of orders at the best bid (resp., ask). In
+this case, the price should match $b_t$ (or $a_t$, resp.) since traders will
+not sell something cheaper if they can sell it more expensive (resp. pay more
+for a stock that can get for a cheaper price). Moreover, if such order is large
+enough it may deplete several bid levels of the order book decreasing the best
+bid price (resp. depleting several ask levels of the orderbook increasing the
+best ask price).
+
+An important feature of a LOB is that traders can choose between submitting
+limit and market orders. The biggest advantage of limit orders is the
+possibility of matching better prices than the ones they can obtain with market
+orders, but as drawback, there is a risk of never being executed. Conversely,
+market orders never match at prices better than the best bid or the best ask,
+but the execution is certain and immediate. Usually, the bid-ask spread can be
+considered as a measure of how expensive is the certainty and immediacy of
+buying or selling the underlying asset.
+
+From a modeling perspective, sometimes it is important to identify the
+different types of traders that are able to participate in the market. LOBs 
+allowed traders to immediately obtain
+liquidity, but at the same time, they also allow other traders to supply
+liquidity to those who require it later. On the exchanges, most traders combine
+limit orders and market orders to create a trading strategy according to their
+needs and the current state of the order book. However, broadly speaking, traders 
+with short-horizon strategies, as arbitrageurs,
+technical traders, and indexers, prefer to post market orders, while, traders
+with long-horizon strategies, as portfolio managers, place limit orders.
+
+There are many practical advantages in understanding LOB dynamics. Examples of
+these are: gaining clearer insight into how best to act in a given market
+situation, devising optimal order execution strategies or optimal placement
+strategies, minimizing the market impact; designing better electronic trading
+algorithms, and assessing market stability.
 
 The resulting published work from this project on my side can be found in {% cite chavez2019level %},
 {% cite chavez3 %}, {% cite chavez2024CompEc %} and {% cite Chavez1 %}. 
