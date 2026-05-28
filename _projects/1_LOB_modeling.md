@@ -163,6 +163,13 @@ and
 
 - $\tau_{n+1}=\min\left\\{\sigma^{(a)}_n,\sigma^{(b)}_n \right\\}$.
 
+So, if we denote by $\\{X_n\\}_{n\geq1}$ the amount by which the price changed right after the $n-$th price change $\tau_n$ and by $\\{S_t\\}_{t\geq0}$ the price process, then it is clear that
+
+- $S_t=\sum\limits_{k=0}^{N_t} X_k$,
+
+where $N_t=\max\\{n \mid \tau_1+\tau_2+\ldots+ \tau_n\leq t\}$
+
+- 
 
 
 The resulting published work from this project on my side can be found in {% cite chavez2019level %},
