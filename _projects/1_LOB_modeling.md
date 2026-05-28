@@ -11,6 +11,8 @@ related_publications: true
 To understand this project, we first need to talk about what is a Limit Order
 Book (LOB) and how it relates to the price formation process.
 
+# An introduction to Limit Order Books (LOB)
+
 The evolution of trading markets has progressed considerably in the last few
 decades. One of the main drivers of such evolution has been the creation and
 usage of fast-paced technological developments. In the past, liquidity was
@@ -108,6 +110,8 @@ but the execution is certain and immediate. Usually, the bid-ask spread can be
 considered as a measure of how expensive is the certainty and immediacy of
 buying or selling the underlying asset.
 
+# A plausible model of the LOB
+
 From a modeling perspective, sometimes it is important to identify the
 different types of traders that are able to participate in the market. LOBs 
 allowed traders to immediately obtain
@@ -163,13 +167,17 @@ and
 
 - $\tau_{n+1}=\min\left\\{\sigma^{(a)}_n,\sigma^{(b)}_n \right\\}$.
 
-So, if we denote by $\\{X_n\\}_{n\geq1}$ the amount by which the price changed right after the $n-$th price change $\tau_n$ and by $\\{S_t\\}_{t\geq0}$ the price process, then it is clear that
+So, if we denote by $\\{X_n\\}_{ n\geq 1 }$ the amount by which the price changed right after the $n-$th price change $\tau_n$ and by $\\{S_t\\}_{t\geq0}$ the price process, then it is clear that
 
-- $S_t=\sum\limits_{k=0}^{N_t} X_k$,
+- $S_t=S_0+\sum\limits_{k=0}^{N_t} X_k$,
 
-where $N_t=\max\\{n \mid \tau_1+\tau_2+\ldots+ \tau_n\leq t\}$
+where $N_t=\max\\{n \mid \tau_1+\tau_2+\ldots+ \tau_n\leq t\\}$. Indeed, $N_t$ just counts how many price changes have occurred up to time $t$ and the price at time $t$ is the starting proce $S_0$ plus all the changes that have occurred so far.
 
-- 
+Notice that in essence, this is a very open model and our specifications on the dynamics of the Volumes, the Arrival processes, the distribution and statistical properties of Price Changes and their dependencies among themselves can be broadly specified, and what we would like is to understand how these inter-dependencies play a role in generating the different price process models used on a diffusion-limit scale.
+
+# What are some relevant questions regarding this model?
+
+
 
 
 The resulting published work from this project on my side can be found in {% cite chavez2019level %},
