@@ -130,7 +130,7 @@ In terms of modeling, we can follow a classical approach of a toy model as prese
 
 - Let ${}^{a/b}L_t^{(n)}$ be the process that define the arrival or Limit Orders at the $n-$th level of the ask/bid side of the orderbook.
 - Similarly, ${}^{a/b}M_t^{(n)}$ will denote the processes determining the arrival of Market Orders at the $n-$th level of the ask/bid side of the orderbook.
-- Also, let $C_t^{(n)}$ be the process driving the cancellations at the the $n-$th level of the ask/bid side of the orderbook.
+- Also, let ${}^{a/b}C_t^{(n)}$ be the process driving the cancellations at the the $n-$th level of the ask/bid side of the orderbook.
 
 In terms of the volumes, we can denote by
 
@@ -155,7 +155,13 @@ first time a price change occurs is
 - $ \tau_1 = \min\left\\{ \sigma^{(a)}_1, \sigma^{(b)}_1 \right\\}$
 
 
-In this fashion, we can continue quantifying when price changes occur on the LOB.
+In this fashion, we can continue quantifying when price changes occur on the LOB. Define recursively
+
+- $\sigma_n^{(a/b)} = \inf\left\\{ t \geq sigma_{n-1}^{(a/b)} \mid Q_{\sigma_{n-1}^{(a/b)} }^{(a/b)} + L_t^{(a/b;1)} - M_t^{(a/b;1)} - C_t^{(a/b;1)} = 0 \right\\}$
+
+and
+
+- $ \tau_n = \min\left\\{ \sigma^{(a)}_{n-1}, \sigma^{(b)}_{n-1} \right\\}$
 
 
 
