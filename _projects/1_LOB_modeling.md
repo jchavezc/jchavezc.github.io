@@ -157,11 +157,11 @@ first time a price change occurs is
 
 In this fashion, we can continue quantifying when price changes occur on the LOB. Define recursively
 
-- $\sigma_n^{(a/b)} = \inf\left\\{ t \geq sigma_{n-1}^{(a/b)} \mid Q_{\sigma_{n-1}^{(a/b)} }^{(a/b)} + L_t^{(a/b;1)} - M_t^{(a/b;1)} - C_t^{(a/b;1)} = 0 \right\\}$
+- $\sigma_n^{(a/b)} = \inf\left\\{ t \geq \sigma_{n-1}^{(a/b)} \mid Q_{\sigma_{n-1}^{(a/b)} }^{(a/b)} + L_t^{(a/b;1)} - M_t^{(a/b;1)} - C_t^{(a/b;1)} = 0 \right\\}$
 
 and
 
-- $ \tau_n = \min\left\\{ \sigma^{(a)}_{n-1}, \sigma^{(b)}_{n-1} \right\\}$
+- $\tau_n = \min\left\\{\sigma^{(a)}_{n-1},\sigma^{(b)}_{n-1}\right\\}$.
 
 
 
