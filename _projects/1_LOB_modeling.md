@@ -161,7 +161,7 @@ In this fashion, we can continue quantifying when price changes occur on the LOB
 
 and
 
-- $ \tau_{n+1} = \min\left\\{ \sigma^{(a)}_n, \sigma^{(b)}_n \right\\}$.
+- $ \tau_{n} = \min\left\\{ \sigma^{(a)}_{n-1}, \sigma^{(b)}_{n-1} \right\\}$.
 
 
 
