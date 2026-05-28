@@ -11,7 +11,7 @@ related_publications: true
 To understand this project, we first need to talk about what is a Limit Order
 Book (LOB) and how it relates to the price formation process.
 
-# An introduction to Limit Order Books (LOB)
+## An introduction to Limit Order Books (LOB)
 
 The evolution of trading markets has progressed considerably in the last few
 decades. One of the main drivers of such evolution has been the creation and
@@ -167,7 +167,7 @@ and
 
 - $\tau_{n+1}=\min\left\\{\sigma^{(a)}_n,\sigma^{(b)}_n \right\\}$.
 
-So, if we denote by $\\{X_n\\}_{ n\geq 1 }$ the amount by which the price changed right after the $n-$th price change $\tau_n$ and by $\\{S_t\\}_{t\geq0}$ the price process, then it is clear that
+So, if we denote by $X_n$ the amount by which the price changed right after the $n-$th price change $\tau_n$ and by $\\{S_t\\}_{t\geq0}$ the price process, then it is clear that
 
 - $S_t=S_0+\sum\limits_{k=0}^{N_t} X_k$,
 
@@ -175,7 +175,7 @@ where $N_t=\max\\{n \mid \tau_1+\tau_2+\ldots+ \tau_n\leq t\\}$. Indeed, $N_t$ j
 
 Notice that in essence, this is a very open model and our specifications on the dynamics of the Volumes, the Arrival processes, the distribution and statistical properties of Price Changes and their dependencies among themselves can be broadly specified, and what we would like is to understand how these inter-dependencies play a role in generating the different price process models used on a diffusion-limit scale.
 
-# What are some relevant questions regarding this model?
+## What are some relevant questions regarding this model?
 
 
 
