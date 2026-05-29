@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Modeling the Limit Order Book 
-description: from a Microscopic Scale
+title: Modeling the Limit Order Book from a Microscopic Scale
+description: A brief description
 img: assets/img/LOB_cover.jpg
 importance: 1
 category: work
@@ -177,7 +177,9 @@ Notice that in essence, this is a very open model and our specifications on the 
 
 ## What are some relevant questions regarding this model?
 
+There are many interesting questions regarding these generic model, but a question I have been interested in answering is the following:
 
+Under what conditions on the variables of interest, can we get a general diffusion when properly rescaled in time and space.
 
 
 The resulting published work from this project on my side can be found in {% cite chavez2019level %},
