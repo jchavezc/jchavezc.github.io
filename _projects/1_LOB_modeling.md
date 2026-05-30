@@ -177,17 +177,29 @@ Notice that in essence, this is a very open model and our specifications on the 
 
 ## What are some relevant questions regarding this model?
 
-There are many interesting questions regarding these generic model, but a question I have been interested in answering is the following:
+There are many interesting questions regarding this generic family of models. For example
 
-Under what conditions on the variables of interest, can we get a general diffusion when properly rescaled in time and space.
+- How does the statistical properties of the processes determining the amount by which the price changes and the processes determining when those orders arrive influence important quantities such as the volatility of the asset?
+- How does the interactions and dependencies between the different quantities affect the price dynamics?
+- What type of limiting models can you expect to get and under what conditions?
 
+The last question is, in essence, one of the main questions I have been actively pursuing:
+
+
+<div style="border: 1px solid #000000; padding: 10px; border-radius: 5px;">
+  Under what conditions on the variables described in the section above, can we get a general diffusion when properly rescaled in time and space? 
+</div>
+
+That is, what conditions on the processes generating the dynamics of the price in a Limit Order Book market are needed so that after the correct rescaling we can get, say, a Geometric Brownian motion, or even more complicated, a Stochastic Volatility model.
+
+## What my work on this project has been?
 
 The resulting published work from this project on my side can be found in {% cite chavez2019level %},
 {% cite chavez3 %}, {% cite chavez2024CompEc %} and {% cite Chavez1 %}. 
 
 
 
-
+<!--  COMMENT
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
@@ -260,3 +272,5 @@ Here's the code for the last row of images above:
 ```
 
 {% endraw %}
+
+-->
