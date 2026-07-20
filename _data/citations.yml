@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-07-10'
+  last_updated: '2026-07-20'
 papers:
   6AtacIUAAAAJ:9yKSN-GCB0IC:
     citations: 25
     title: Compound Hawkes processes in limit order books
     year: '2019'
   6AtacIUAAAAJ:IjCSPb-OGe4C:
-    citations: 14
+    citations: 15
     title: A level-1 limit order book with time dependent arrival rates
     year: '2019'
   6AtacIUAAAAJ:Tyk-4Ss8FVUC:
