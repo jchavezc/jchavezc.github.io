@@ -43,12 +43,11 @@ Engineering Mathematics* by Erwin Kreyszig, 10th edition (2011) will be used.
 
 ## Grading
 
-- Exam 1: 15%
-- Exam 2: 15%
+- Exam 1: 20%
+- Exam 2: 20%
 - Quizzes: 10%
-- Theoretical Handouts: 10%
-- Homework: 20%
-- Cumulative Final Exam: 30%
+- Homework: 25%
+- Cumulative Final Exam: 25%
 
 **Important Note:** A requisite to pass the class is to score 60% or more in **any** or the 3 exams.
 That is, you need to pass at least one exam to pass the class. If you fail all 3 exams but you have a 
