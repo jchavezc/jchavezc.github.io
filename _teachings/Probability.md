@@ -47,6 +47,6 @@ visualize and understand the most important concepts in probability.
 - Homework: 30%
 - Cumulative Final Exam: 30%
 
-**Important Note:** A requisite to pass the class is to score 60% or more in **any** or the 3 exams.
+<!--**Important Note:** A requisite to pass the class is to score 60% or more in **any** of the 3 exams.
 That is, you need to pass at least one exam to pass the class. If you fail all 3 exams but you have a 
-passing average, you will still fail the class.
+passing average, you will still fail the class. -->
